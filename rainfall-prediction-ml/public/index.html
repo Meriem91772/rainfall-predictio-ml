@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rainfall Prediction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Rainfall Prediction Classifier</h1>
+
+  <form id="predict-form">
+    <input type="number" step="any" id="MinTemp" placeholder="MinTemp" required />
+    <input type="number" step="any" id="MaxTemp" placeholder="MaxTemp" required />
+    <input type="number" step="any" id="Humidity9am" placeholder="Humidity9am" required />
+    <input type="number" step="any" id="Humidity3pm" placeholder="Humidity3pm" required />
+    <button type="submit">Predict</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
